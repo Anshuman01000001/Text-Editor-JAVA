@@ -8,7 +8,12 @@ import javax.swing.filechooser.*;
 
 public class TextEditor extends JFrame implements ActionListener{
 	
-	
+	JTextArea textArea;
+	JScrollPane scrollPane;
+	JLabel fontLabel;
+	JSpinner fontSizeSpinner;
+	JButton fontColorButton;
+	JComboBox fontBox;
  
 	JMenuBar menuBar;
 	JMenu fileMenu;
